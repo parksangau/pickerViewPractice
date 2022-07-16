@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var currentTime: UILabel!
+    @IBOutlet var alarmTime: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBOutlet var timePicker: UIPickerView!
 }
 
