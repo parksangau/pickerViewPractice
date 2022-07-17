@@ -15,8 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    let onAction = UIAlertAction(title: "설정된 시간입니다!!!", style: UIAlertAction.Style.default, handler: nil)
+    
     @IBOutlet var timePicker: UIPickerView!
 }
 
